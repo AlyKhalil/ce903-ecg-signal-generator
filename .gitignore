@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+myenv/
+.myenv/
+my_env/
+.my_env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data & model files
+*.csv
+*.tsv
+*.json
+!package.json
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+data/
+datasets/
+checkpoints/
+outputs/
+runs/
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
